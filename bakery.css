@@ -111,25 +111,26 @@
 
 /* NAV START */
 
-.navigation {
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
     background-color: #e7931a;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .nav-item {
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    padding: 5px;
 }
 
 .nav-link {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
     color: #ffffff;
+    transition: .3s;
 }
 
 /* NAV END */
@@ -257,8 +258,6 @@
     background-color: inherit;
 }
 
-
-
 .ingredients-bakery {
     color: #ffffff;
 }
@@ -285,4 +284,307 @@
 
 .form-bakery p {
     font-size: 19px;
+}
+
+/* SECTION 5 END */
+
+/* SECTION 7 START */
+
+.info-container {
+    background-color: #FAFAD2;
+}
+
+.info-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: #e7931a;
+}
+
+.info-container p {
+    font-size: 19px;
+}
+
+/* SECTION 7 END */
+
+/* SECTION 8 START */
+
+.s8-container {
+    background-image: url(./src/section8.jpg);
+    height: 500px;
+}
+
+.s8-container h2 {
+    font-weight: 400;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 17vh;
+}
+
+/* SECTION 8 END */
+
+/* SECTION 9 START */
+
+.info2-container {
+    background-color: #e7931a;
+}
+
+.pack-center {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.pack-center h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.pack-center p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.pack-icon {
+    font-size: 35px;
+    margin-bottom: 23px;
+}
+
+
+/* SECTION 9 START */
+
+/* FOOTER START */
+
+.logo-footer {
+    width: 150px;
+    height: 150px;
+    margin-top: 20vh;
+}
+
+.footer-map {
+    padding-top: 2vh;
+}
+
+.footer-map h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 2vh;
+}
+
+.maps {
+    width: 100%;
+    height: 50vh;
+}
+
+/* FOOTER END */
+
+@media (max-width: 1030px) {
+
+    .col {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .missons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .s8-container h2 {
+        margin-left: 30px;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+
+    .header_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo-header {
+        margin-left: 13px;
+    }
+
+    .info_box {
+        padding-top: 12vh;
+        margin-left: 20vh;
+    }
+
+    #carousel1 h1 {
+        margin-left: 10px;
+    }
+
+    .form-bakery img {
+        width: 60vh;
+    }
+
+    .s8-container h2 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .header_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fa-phone {
+        border: none;
+    }
+
+    .p-2 {
+        margin-left: -10vh;
+    }
+
+    .info_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #carousel2 h1 {
+        margin-left: 20px;
+    }
+
+    #carousel3 h1 {
+        margin-left: 20px;
+    }
+
+    .col {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .form-container img {
+        width: 350px;
+    }
+
+    .info-container img {
+        width: 350px;
+    }
+
+    .misson1 {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .valores {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ingredients-bakery {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .header_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fa-phone {
+        border: none;
+    }
+
+    .p-2 {
+        margin-left: -10vh;
+    }
+
+    .info_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #carousel2 h1 {
+        margin-left: 20px;
+    }
+
+    #carousel3 h1 {
+        margin-left: 20px;
+    }
+
+    .form-container img {
+        width: 350px;
+    }
+
+    .info-container img {
+        width: 350px;
+    }
+
+    .missons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .misson-container img {
+        width: 100%;
+    }
+
+    .col {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .valores {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .logo-header {
+        margin-left: 10px;
+    }
+
+    #carousel1 h1 {
+        font-size: 45px;
+    }
+    
+    #carousel2 h1 {
+        font-size: 45px;
+    }
+
+    #carousel3 h1 {
+        font-size: 45px;
+    }
+
+    .form-container img {
+        width: 20vh;
+    }
+
+    .info-container img {
+        width: 20vh;
+    }
+
 }

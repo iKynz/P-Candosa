@@ -50,22 +50,32 @@
         </div>
     </header>
 
-    <nav class="navigation">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-            </li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE NÓS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
 
     <!-- Section 1 Start -->
     <section class="banner-container">
@@ -73,16 +83,22 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active" id="carousel1">
-                    <h1>All sorrows are less <br>
-                        with bread...</h1>
+                    <div class="d-flex justify-content-between">
+                        <h1>All sorrows are less <br>
+                            with bread...</h1>
+                    </div>
                 </div>
                 <div class="carousel-item" id="carousel2">
-                    <h1>We keep traditions <br>
-                        of baking...</h1>
+                    <div class="d-flex justify-content-between">
+                        <h1>We keep traditions <br>
+                            of baking...</h1>
+                    </div>
                 </div>
                 <div class="carousel-item" id="carousel3">
-                    <h1>Respect the bread <br>
-                        you eat...</h1>
+                    <div class="d-flex justify-content-between">
+                        <h1>Respect the bread <br>
+                            you eat...</h1>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -175,7 +191,7 @@
     <section class="misson-container">
 
         <div class="container text-center">
-            <div class="row">
+            <div class="row missons">
                 <div class="col misson1">
                     <img src="./src/misson1.jpg" alt="">
                     <h3>Missão</h3>
@@ -221,7 +237,7 @@
                 <div class="col ingredients-bakery">
                     <h2>INGREDIENTES NATURAIS</h2>
                     <p>
-                        Os produtos da Gustavo Bread Bakery são feitos à mão apenas com os melhores ingredientes e
+                        Os produtos da Candosa são feitos à mão apenas com os melhores ingredientes e
                         entradas naturais. Nenhum conservante adicionado será encontrado em qualquer uma das coisas que
                         assamos, e nos esforçamos para obter nossos ingredientes localmente usando agricultores e
                         produtores que praticam as mais puras iniciativas de cultivo. Permitimos que nossos pães levem
@@ -258,7 +274,7 @@
     <!-- Section 6 Start -->
     <section class="form-container">
         <div class="container text-center">
-            <div class="row">
+            <div class="row forms">
                 <div class="col">
                     <img src="./src/form.jpg" alt="">
                 </div>
@@ -280,6 +296,98 @@
     </section>
     <!-- Section 6 End -->
 
+    <!-- Section 7 Start -->
+    <section class="info-container">
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2>QUANTO TEMPO FICA MUITO GOSTOSO?</h2>
+                    <p>
+                        Em geral, como nossos pães são feitos com levains naturais, ou pré-fermentos, eles permanecem
+                        frescos por muito mais tempo do que os pães padrão de fábrica de processo rápido. Em boas
+                        condições, os pães duram cerca de uma semana à temperatura ambiente. Para o pão que você vai
+                        comer no mesmo dia ou no dia seguinte, basta deixar o pão na tábua com a ponta cortada para
+                        baixo. Ou guarde-o embrulhado em um saco de papel ou cubra-o frouxamente com um saco plástico.
+                        Para um armazenamento mais longo, o congelamento é uma excelente opção. Basta embrulhar bem o
+                        pão em um saco plástico e congelar. Ao removê-lo, deixe-o descansar no saco até que todos os
+                        sinais de gotas de água desapareçam.
+                    </p>
+                </div>
+                <div class="col form-bakery">
+                    <img src="./src/info.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Section 7 End -->
+
+    <!-- Section 8 Start -->
+    <section class="s8-container">
+        <div class="d-flex justify-content-center">
+            <h2>A piece of bread in your sack is better than a feather <br> in your hat...</h2>
+        </div>
+    </section>
+    <!-- Section 8 End -->
+
+    <!-- Section 9 Start -->
+    <section class="info2-container">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col pack-center">
+                    <i class="fas fa-eye pack-icon"></i>
+                    <h3>BROWSE AND DISCOVER</h3>
+                    <p>Browse our great line of bread and discover a new taste.</p>
+                </div>
+                <div class="col pack-center">
+                    <i class="fas fa-calendar-alt pack-icon"></i>
+                    <h3>SCHEDULE YOUR ORDER</h3>
+                    <p>Place your order for a date you need in the future.</p>
+                </div>
+                <div class="col pack-center">
+                    <i class="fas fa-car pack-icon"></i>
+                    <h3>PACKAGING AND DELIVERY</h3>
+                    <p>reliable packing and worldwide shipping.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col pack-center">
+                    <i class="fas fa-users pack-icon"></i>
+                    <h3>SHIPPING OPTIONS</h3>
+                    <p>The following shipping options are available depending upon the delivery.</p>
+                </div>
+                <div class="col pack-center">
+                    <i class="fas fa-coffee pack-icon"></i>
+                    <h3>ENJOY AN AWESOME BREAD</h3>
+                    <p>enjoy a cup of coffee with our amazing breads.</p>
+                </div>
+                <div class="col pack-center">
+                    <i class="fas fa-cubes pack-icon"></i>
+                    <h3>STORAGE AND CARE</h3>
+                    <p>We store our bread at room temperature in a dark, dry place.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 9 End -->
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col footer-map">
+                    <h3>Faça uma visita</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.8788778700264!2d-43.2002213844202!3d-22.806951540051365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9978212344d013%3A0xfe31e3193dabf968!2sPadaria%20e%20Confeitaria%20Candosa!5e0!3m2!1spt-BR!2sbr!4v1676586776315!5m2!1spt-BR!2sbr"
+                        style="border:0;" class="maps" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
